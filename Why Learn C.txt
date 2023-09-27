@@ -1,0 +1,6 @@
+Why Learn C?
+It is one of the most popular programming language
+C language is the basic tor learn other popular programming languages such as Python, C++, Java, C#
+C is very fast compared to other programming languages (Eg: Java and Python)
+C is versatile 
+C can be used in both applications and technologies
