@@ -6,5 +6,9 @@ int main()
 {
   int a=10;
   int b=15;
-  
+  int c;
+  c = a + b;
+  print("C is : %d", c);
+  getch();
+  return 0;  
 }
