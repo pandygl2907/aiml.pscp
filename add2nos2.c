@@ -1,4 +1,4 @@
-// C Program to add 2 numbers (Get input from user)
+// C Program to add 2 numbers (Get input from the user)
 #include<stdio.h>                        // Header File
 int main()                               // Main Function
 {                                         // Main Function Starts
