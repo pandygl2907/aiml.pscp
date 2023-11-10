@@ -1,37 +1,35 @@
 // C Program to implement Linear Search using One Dimensional Array....
 
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 int main()
 {
-  int a[10],n,i,j,temp;
-
+  int n, a[10], i, s;
+  clrscr();
   printf("Enter the n value : ");
   scanf("%d", &n);
 
-  printf("Enter the values : ");
-  for (i=0; i<n; i++)
+  printf("Enter the elements : \n");
+  for(i=0; i<n; i++)
   {
     scanf("%d", &a[i]);
   }
 
-  for (i=0; i<n-1; i++)
+  printf("Enter the search value : ");
+  scanf("%d", &s);
+
+  for(i=0; i<n; i++)
   {
-    for (j=0; j<n-i-1; j++)
+    if(s == a[i])
     {
-      if (a[j] > a[j+1])
-      {
-      	temp = a[j];
-      	a[j] = a[j+1];
-      	a[j+1] = temp;
-      }
+      printf("\nSearch element found in location %d", i+1);
+      break;
     }
   }
-
-  printf("\nSorted array....\n");
-  for (i=0; i<n; i++)
+  if(i == n)
   {
-    printf("%d ", a[i]);
+    printf("\nSearch element not found in any location...");
   }
-
+  getch();
   return 0;
 }
