@@ -21,7 +21,7 @@ int main()
         }
     }
     
-    if(temp == 0)
+    if(temp == 1)
     {
         printf("It's prime number...");
     }
