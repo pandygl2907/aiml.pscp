@@ -8,7 +8,7 @@ int main()
     printf("Enter any number : ");    
     scanf("%d", &n);    
     
-    if(i==0 || i==1)
+    if(n==0 || n==1)
     {
         temp = 1;
     }
@@ -21,7 +21,7 @@ int main()
         }
     }
     
-    if(temp == 1)
+    if(temp == 0)
     {
         printf("It's prime number...");
     }
